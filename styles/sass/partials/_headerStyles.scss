@@ -1,0 +1,51 @@
+header {
+    background: linear-gradient(90deg, rgba(17,9,35,1) 0%, rgba(28,18,58,1) 35%, rgba(69,15,63,1) 62%, rgba(120,12,62,1) 90%);
+    height: 800px;
+    color: white;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    margin: 0 50px;
+    padding-top: 100px;
+    justify-content: space-between;
+
+}
+
+.header-info {
+    width: 60%;
+    a {
+        text-decoration: none;
+        color: white;
+        line-height: 2rem;
+        text-shadow: 0 0 7px white,
+                0 0 42px $mainPink,
+                0 0 82px $mainPink,
+                0 0 92px $mainPink,
+                0 0 102px $mainPink,
+                0 0 151px $mainPink;
+        &:hover,
+        &:focus {text-shadow: 0 0 7px white,
+            0 0 10px white,
+            0 0 21px white,
+            0 0 42px $mainPink,
+            0 0 82px $mainPink,
+            0 0 92px $mainPink,
+            0 0 102px $mainPink,
+            0 0 151px $mainPink;}
+    }
+}
+
+.header-photo {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+        border-radius: 100%;
+        padding: 0 45px;
+        max-width: 350px;
+        max-height: 350px;
+    }
+}

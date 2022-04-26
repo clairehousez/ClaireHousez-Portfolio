@@ -201,3 +201,178 @@ template {
 [hidden] {
   display: none;
 }
+
+html {
+  font-size: 125%;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+h1 {
+  line-height: 3.5rem;
+  font-size: 3rem;
+}
+
+h2 {
+  line-height: 3.5rem;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+.wrapper {
+  max-width: 100%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, right top, from(rgb(17, 9, 35)), color-stop(35%, rgb(28, 18, 58)), color-stop(62%, rgb(69, 15, 63)), color-stop(90%, rgb(120, 12, 62)));
+  background: linear-gradient(90deg, rgb(17, 9, 35) 0%, rgb(28, 18, 58) 35%, rgb(69, 15, 63) 62%, rgb(120, 12, 62) 90%);
+  height: 800px;
+  color: white;
+  width: 100%;
+}
+
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 50px;
+  padding-top: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-info {
+  width: 60%;
+}
+.header-info a {
+  text-decoration: none;
+  color: white;
+  line-height: 2rem;
+  text-shadow: 0 0 7px white, 0 0 42px #C30342, 0 0 82px #C30342, 0 0 92px #C30342, 0 0 102px #C30342, 0 0 151px #C30342;
+}
+.header-info a:hover, .header-info a:focus {
+  text-shadow: 0 0 7px white, 0 0 10px white, 0 0 21px white, 0 0 42px #C30342, 0 0 82px #C30342, 0 0 92px #C30342, 0 0 102px #C30342, 0 0 151px #C30342;
+}
+
+.header-photo {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.header-photo img {
+  border-radius: 100%;
+  padding: 0 45px;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 25px;
+}
+nav h4 {
+  text-shadow: 0 0 7px white, 0 0 42px #C30342, 0 0 82px #C30342, 0 0 92px #C30342, 0 0 102px #C30342, 0 0 151px #C30342;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+  padding: 0 35px;
+  text-shadow: 0 0 7px white, 0 0 42px #C30342, 0 0 82px #C30342, 0 0 92px #C30342, 0 0 102px #C30342, 0 0 151px #C30342;
+}
+nav ul a:hover, nav ul a:focus {
+  text-shadow: 0 0 7px white, 0 0 10px white, 0 0 21px white, 0 0 42px #C30342, 0 0 82px #C30342, 0 0 92px #C30342, 0 0 102px #C30342, 0 0 151px #C30342;
+}
+
+.about-me {
+  text-align: center;
+  height: 300px;
+  background-color: white;
+  padding: 25px;
+}
+
+.Skills {
+  background-color: #dbdbdb;
+}
+
+.my-skills {
+  text-align: center;
+  height: 300px;
+  padding: 25px;
+}
+
+.icons {
+  font-size: 4rem;
+  padding: 35px;
+  letter-spacing: 2rem;
+  line-height: 2.5rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgb(17, 9, 35)), color-stop(18%, rgb(28, 18, 58)), color-stop(50%, rgb(69, 15, 63)), color-stop(80%, rgb(120, 12, 62)));
+  background-image: linear-gradient(90deg, rgb(17, 9, 35) 0%, rgb(28, 18, 58) 18%, rgb(69, 15, 63) 50%, rgb(120, 12, 62) 80%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgb(17, 9, 35)), color-stop(15%, rgb(28, 18, 58)), color-stop(50%, rgb(69, 15, 63)), color-stop(70%, rgb(120, 12, 62)));
+  background-image: linear-gradient(90deg, rgb(17, 9, 35) 0%, rgb(28, 18, 58) 15%, rgb(69, 15, 63) 50%, rgb(120, 12, 62) 70%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Portfolio {
+  height: 800px;
+  text-align: center;
+  padding: 20px;
+  line-height: 2rem;
+}
+
+.my-portfolio {
+  padding: 30px;
+}
+.my-portfolio img {
+  width: 300px;
+  height: auto;
+}
+.my-portfolio img:hover, .my-portfolio img:focus {
+  -webkit-box-shadow: 0 0 7px white, 0 0 10px white, 0 0 21px white, 0 0 7px #C30342, 0 0 10px #C30342, 0 0 21px #C30342, 0 0 25px #C30342, 0 0 30px #C30342;
+          box-shadow: 0 0 7px white, 0 0 10px white, 0 0 21px white, 0 0 7px #C30342, 0 0 10px #C30342, 0 0 21px #C30342, 0 0 25px #C30342, 0 0 30px #C30342;
+}
+
+.Contact {
+  text-align: center;
+  background-color: #dbdbdb;
+  height: 500px;
+  padding: 20px;
+}

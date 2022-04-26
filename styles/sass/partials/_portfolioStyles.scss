@@ -1,0 +1,26 @@
+.Portfolio {
+    height: 800px;
+    text-align: center;
+    padding: 20px;
+    line-height: 2rem;
+}
+
+.my-portfolio {
+    padding: 30px;
+    img {
+        width: 300px;
+        height: auto;
+        &:hover,
+        &:focus {
+            box-shadow: 0 0 7px white,
+            0 0 10px white,
+            0 0 21px white,
+            0 0 7px $mainPink,
+            0 0 10px $mainPink,
+            0 0 21px $mainPink,
+            0 0 25px $mainPink,
+            0 0 30px $mainPink;;
+        }
+    }
+}
+

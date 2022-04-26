@@ -5,9 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Claire's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/af4482c1be.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <h1>This is Claire's Portfolio</h1>
-    <h2>✨ Coming soon! ✨</h2>
+    <header>
+        <nav>
+            <h4>Claire Housez</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-content">
+            <div class="header-info">
+                <h3>Claire Housez</h3>
+                <h1>I'm a Web Developer</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, consectetur beatae neque molestiae similique, debitis perspiciatis praesentium eos fugiat repellat modi, dicta ea exercitationem inventore. </p>
+
+                <a href="#Portfolio">Go To Portfolio</a>
+            </div>
+            <div class="header-photo">
+                <img src="assets/my-face.jpg" alt="A stunning photo of Claire Housez">
+            </div>
+        </div>
+    </header>
+
+    <section class="About" id="About">
+        <div class="wrapper">
+            <div class="about-me">
+                <h3>About Me</h3>
+                <h2>Hi there, I'm <span>Claire Housez</span></h2>
+                <h4>Web Developer based in Toronto, Canada</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi officiis id quia nulla excepturi earum!</p>
+            </div>
+    </section>
+
+    <section class="Skills">
+        <div class="wrapper">
+            <div class="my-skills">
+                <h3>Here's what I can do</h3>
+                <div class="icons">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-sass"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Portfolio" id="Portfolio">
+        <div class="wrapper">
+            <h3>Portfolio</h3>
+            <p>Here are my most recent projects!</p>
+
+            <div class="my-portfolio">
+                <div class="under-the-sea">
+                    <a href="https://claire-housez-project-one.netlify.app"><img src="assets/under-the-sea.png" alt="A preview of Claire's Under The Sea project"></a>
+                    <h4><span>Under the Sea Webpage</span></h4>
+                    <p>A responsive, multipage PSD conversion for an aquarium. Build with HTML5, SASS and bit little bit of JavaScript</p>
+                </div>
+                <div class="movie-plus">
+                    <a href="https://whimsical-tartufo-69d928.netlify.app/"><img src="assets/movie-plus-app.png" alt="A preview of Claire's Movie app"></a>
+                    <h4><span>Movie Plus App</span></h4>
+                    <p>A movie selection app based on TMDB's API. Search for a movie, or select your favourite genre. Discover trending actors. Developed with my partner at Juno College, Slava Chekhunov.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Contact" id="Contact">
+        <div class="wrapper">
+            <div class="contact-me">
+                <h3>Contact Me</h3>
+            </div>
+
+            <div class="contact-form">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi fuga repellat vero alias, impedit aperiam doloremque! Pariatur, explicabo. Assumenda eius aliquid consequuntur tenetur fuga alias!</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

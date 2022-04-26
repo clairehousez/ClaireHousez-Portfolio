@@ -1,0 +1,33 @@
+
+.about-me {
+    text-align: center;
+    height: 300px;
+    background-color: white;
+    padding: 25px;
+}
+
+.Skills {
+    background-color: $offWhite;
+}
+
+.my-skills {
+    text-align: center;
+    height: 300px;
+    padding: 25px;
+}
+
+.icons {
+    font-size: 4rem;
+    padding: 35px;
+    letter-spacing: 2rem;
+    line-height: 2.5rem;
+    background-image: linear-gradient(90deg, rgba(17,9,35,1) 0%, rgba(28,18,58,1) 18%, rgba(69,15,63,1) 50%, rgba(120,12,62,1) 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+span {
+    background-image: linear-gradient(90deg, rgba(17,9,35,1) 0%, rgba(28,18,58,1) 15%, rgba(69,15,63,1) 50%, rgba(120,12,62,1) 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
