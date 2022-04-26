@@ -210,7 +210,8 @@ h1,
 h2,
 h3,
 h4,
-a {
+a,
+button {
   font-family: "Raleway", sans-serif;
   letter-spacing: 2px;
   font-weight: 400;
@@ -359,7 +360,13 @@ span {
 }
 
 .my-portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 30px;
+}
+.my-portfolio p {
+  font-size: 1rem;
 }
 .my-portfolio img {
   width: 300px;
@@ -370,9 +377,70 @@ span {
           box-shadow: 0 0 7px white, 0 0 10px white, 0 0 21px white, 0 0 7px #C30342, 0 0 10px #C30342, 0 0 21px #C30342, 0 0 25px #C30342, 0 0 30px #C30342;
 }
 
+.under-the-sea {
+  width: 50%;
+  padding: 25px;
+  text-align: center;
+}
+.under-the-sea a {
+  text-decoration: none;
+  padding: 15px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgb(17, 9, 35)), color-stop(15%, rgb(28, 18, 58)), color-stop(50%, rgb(69, 15, 63)), color-stop(70%, rgb(120, 12, 62)));
+  background-image: linear-gradient(90deg, rgb(17, 9, 35) 0%, rgb(28, 18, 58) 15%, rgb(69, 15, 63) 50%, rgb(120, 12, 62) 70%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.under-the-sea a:hover, .under-the-sea a:focus {
+  text-shadow: 5px 5px 20px #C30342;
+}
+
+.movie-plus {
+  width: 50%;
+  padding: 25px;
+  text-align: center;
+}
+.movie-plus a {
+  text-decoration: none;
+  padding: 15px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgb(17, 9, 35)), color-stop(15%, rgb(28, 18, 58)), color-stop(50%, rgb(69, 15, 63)), color-stop(70%, rgb(120, 12, 62)));
+  background-image: linear-gradient(90deg, rgb(17, 9, 35) 0%, rgb(28, 18, 58) 15%, rgb(69, 15, 63) 50%, rgb(120, 12, 62) 70%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.movie-plus a:hover, .movie-plus a:focus {
+  text-shadow: 5px 5px 20px #C30342;
+}
+
 .Contact {
   text-align: center;
   background-color: #dbdbdb;
-  height: 500px;
+  height: 700px;
   padding: 20px;
+}
+
+.contact-form input {
+  margin: 50px;
+  width: 30%;
+  padding: 10px;
+}
+.contact-form textarea {
+  width: 70%;
+  height: 250px;
+  padding: 10px;
+  resize: none;
+}
+.contact-form button {
+  margin: 35px;
+  padding: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(17, 9, 35)), color-stop(35%, rgb(28, 18, 58)), color-stop(62%, rgb(69, 15, 63)), color-stop(90%, rgb(120, 12, 62)));
+  background: linear-gradient(90deg, rgb(17, 9, 35) 0%, rgb(28, 18, 58) 35%, rgb(69, 15, 63) 62%, rgb(120, 12, 62) 90%);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.contact-form button:hover, .contact-form button:focus {
+  -webkit-box-shadow: 0 0 7px white, 0 0 10px white, 0 0 21px white, 0 0 7px #C30342, 0 0 10px #C30342, 0 0 21px #C30342, 0 0 25px #C30342, 0 0 30px #C30342;
+          box-shadow: 0 0 7px white, 0 0 10px white, 0 0 21px white, 0 0 7px #C30342, 0 0 10px #C30342, 0 0 21px #C30342, 0 0 25px #C30342, 0 0 30px #C30342;
 }

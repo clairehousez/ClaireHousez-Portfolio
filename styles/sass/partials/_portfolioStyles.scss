@@ -6,7 +6,11 @@
 }
 
 .my-portfolio {
+    display: flex;
     padding: 30px;
+    p {
+        font-size: 1rem;
+    }
     img {
         width: 300px;
         height: auto;
@@ -19,7 +23,41 @@
             0 0 10px $mainPink,
             0 0 21px $mainPink,
             0 0 25px $mainPink,
-            0 0 30px $mainPink;;
+            0 0 30px $mainPink;
+        }
+    }
+}
+
+.under-the-sea {
+    width: 50%;
+    padding: 25px;
+    text-align: center;
+    a {
+        text-decoration: none;
+        padding: 15px;
+        background-image: linear-gradient(90deg, rgba(17,9,35,1) 0%, rgba(28,18,58,1) 15%, rgba(69,15,63,1) 50%, rgba(120,12,62,1) 70%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        &:hover,
+        &:focus {
+            text-shadow: 5px 5px 20px $mainPink;
+        }
+    }
+}
+
+.movie-plus {
+    width: 50%;
+    padding: 25px;
+    text-align: center;
+    a {
+        text-decoration: none;
+        padding: 15px;
+        background-image: linear-gradient(90deg, rgba(17,9,35,1) 0%, rgba(28,18,58,1) 15%, rgba(69,15,63,1) 50%, rgba(120,12,62,1) 70%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        &:hover,
+        &:focus {
+            text-shadow: 5px 5px 20px $mainPink;
         }
     }
 }
