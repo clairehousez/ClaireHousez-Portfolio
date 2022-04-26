@@ -261,10 +261,14 @@ header {
 .header-info {
   width: 60%;
 }
+.header-info h3 {
+  text-transform: uppercase;
+}
 .header-info a {
   text-decoration: none;
+  text-transform: uppercase;
   color: white;
-  line-height: 2rem;
+  line-height: 3rem;
   text-shadow: 0 0 7px white, 0 0 42px #C30342, 0 0 82px #C30342, 0 0 92px #C30342, 0 0 102px #C30342, 0 0 151px #C30342;
 }
 .header-info a:hover, .header-info a:focus {
@@ -298,6 +302,7 @@ nav {
 }
 nav h4 {
   text-shadow: 0 0 7px white, 0 0 42px #C30342, 0 0 82px #C30342, 0 0 92px #C30342, 0 0 102px #C30342, 0 0 151px #C30342;
+  text-transform: uppercase;
 }
 nav ul {
   display: -webkit-box;
@@ -308,6 +313,7 @@ nav ul {
 nav ul a {
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
   padding: 0 35px;
   text-shadow: 0 0 7px white, 0 0 42px #C30342, 0 0 82px #C30342, 0 0 92px #C30342, 0 0 102px #C30342, 0 0 151px #C30342;
 }
@@ -317,7 +323,7 @@ nav ul a:hover, nav ul a:focus {
 
 .about-me {
   text-align: center;
-  height: 300px;
+  height: 380px;
   background-color: white;
   padding: 25px;
 }
@@ -457,4 +463,13 @@ span {
 }
 .contact-icons a:hover, .contact-icons a:focus {
   text-shadow: 0 0 7px white, 0 0 10px white, 0 0 21px white, 0 0 42px #C30342, 0 0 82px #C30342, 0 0 92px #C30342, 0 0 102px #C30342, 0 0 151px #C30342;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, right top, from(rgb(17, 9, 35)), color-stop(35%, rgb(28, 18, 58)), color-stop(62%, rgb(69, 15, 63)), color-stop(90%, rgb(120, 12, 62)));
+  background: linear-gradient(90deg, rgb(17, 9, 35) 0%, rgb(28, 18, 58) 35%, rgb(69, 15, 63) 62%, rgb(120, 12, 62) 90%);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 0 0 7px white, 0 0 42px #C30342, 0 0 82px #C30342, 0 0 92px #C30342, 0 0 102px #C30342, 0 0 151px #C30342;
 }

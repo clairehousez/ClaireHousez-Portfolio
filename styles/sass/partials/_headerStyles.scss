@@ -15,10 +15,14 @@ header {
 
 .header-info {
     width: 60%;
+    h3 {
+        text-transform: uppercase;
+    }
     a {
         text-decoration: none;
+        text-transform: uppercase;
         color: white;
-        line-height: 2rem;
+        line-height: 3rem;
         text-shadow: 0 0 7px white,
                 0 0 42px $mainPink,
                 0 0 82px $mainPink,

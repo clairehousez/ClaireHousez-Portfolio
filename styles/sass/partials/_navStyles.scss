@@ -8,7 +8,8 @@ nav {
         0 0 82px $mainPink,
         0 0 92px $mainPink,
         0 0 102px $mainPink,
-        0 0 151px $mainPink
+        0 0 151px $mainPink;
+        text-transform: uppercase;
     }
 
 
@@ -18,6 +19,7 @@ nav {
         a {
             color: white;
             text-decoration: none;
+            text-transform: uppercase;
             padding: 0 35px;
             text-shadow: 0 0 7px white,
                 0 0 42px $mainPink,
