@@ -529,7 +529,7 @@ footer {
 
   header {
     height: auto;
-    width: 100%;
+    max-width: 100%;
   }
 
   .header-photo {
@@ -539,7 +539,7 @@ footer {
   .header-photo img {
     position: absolute;
     right: -50px;
-    top: -140px;
+    top: -150px;
     max-width: 150px;
     max-height: 150px;
   }
@@ -547,22 +547,24 @@ footer {
   .header-info {
     width: 100%;
     margin-bottom: 35px;
+    line-height: 1.5rem;
   }
   .header-info a {
-    line-height: 1.3rem;
+    line-height: 1.5rem;
   }
 
   .about-me {
     height: auto;
+    max-width: 100%;
   }
   .about-me h2 {
-    line-height: 1.8rem;
+    line-height: 2.3rem;
   }
   .about-me h2 span {
     display: block;
   }
   .about-me p {
-    line-height: 1.3rem;
+    line-height: 1.5rem;
   }
 
   .my-skills {
@@ -580,7 +582,7 @@ footer {
 
   .Portfolio {
     height: auto;
-    width: 100%;
+    max-width: 100%;
     padding: 5px;
   }
   .Portfolio .my-portfolio {
@@ -606,5 +608,27 @@ footer {
   .Portfolio .my-portfolio .slapshot {
     line-height: 1.5rem;
     width: 100%;
+  }
+
+  .Contact {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+  .Contact .contact-form input {
+    width: 90%;
+    margin: 10px;
+  }
+  .Contact .contact-form textarea {
+    margin: 15px;
+    width: 90%;
+    height: 150px;
+  }
+  .Contact .contact-form button {
+    margin: 20px;
+  }
+  .Contact .contact-icons {
+    padding: 15px;
   }
 }
