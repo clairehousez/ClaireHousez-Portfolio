@@ -351,8 +351,8 @@ nav ul a:hover, nav ul a:focus {
 }
 
 span {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgb(17, 9, 35)), color-stop(15%, rgb(28, 18, 58)), color-stop(50%, rgb(69, 15, 63)), color-stop(70%, rgb(120, 12, 62)));
-  background-image: linear-gradient(90deg, rgb(17, 9, 35) 0%, rgb(28, 18, 58) 15%, rgb(69, 15, 63) 50%, rgb(120, 12, 62) 70%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgb(17, 9, 35)), color-stop(10%, rgb(28, 18, 58)), color-stop(40%, rgb(69, 15, 63)), color-stop(70%, rgb(120, 12, 62)));
+  background-image: linear-gradient(90deg, rgb(17, 9, 35) 0%, rgb(28, 18, 58) 10%, rgb(69, 15, 63) 40%, rgb(120, 12, 62) 70%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -384,7 +384,7 @@ span {
 }
 
 .under-the-sea {
-  width: 50%;
+  width: 33%;
   padding: 25px;
   text-align: center;
 }
@@ -402,7 +402,7 @@ span {
 }
 
 .movie-plus {
-  width: 50%;
+  width: 33%;
   padding: 25px;
   text-align: center;
 }
@@ -416,6 +416,24 @@ span {
   -webkit-text-fill-color: transparent;
 }
 .movie-plus a:hover, .movie-plus a:focus {
+  text-shadow: 5px 5px 20px #C30342;
+}
+
+.slapshot {
+  width: 33%;
+  padding: 25px;
+  text-align: center;
+}
+.slapshot a {
+  text-decoration: none;
+  padding: 15px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgb(17, 9, 35)), color-stop(15%, rgb(28, 18, 58)), color-stop(50%, rgb(69, 15, 63)), color-stop(70%, rgb(120, 12, 62)));
+  background-image: linear-gradient(90deg, rgb(17, 9, 35) 0%, rgb(28, 18, 58) 15%, rgb(69, 15, 63) 50%, rgb(120, 12, 62) 70%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.slapshot a:hover, .slapshot a:focus {
   text-shadow: 5px 5px 20px #C30342;
 }
 
@@ -473,4 +491,120 @@ footer {
   padding: 5px;
   text-align: center;
   text-shadow: 0 0 7px white, 0 0 42px #C30342, 0 0 82px #C30342, 0 0 92px #C30342, 0 0 102px #C30342, 0 0 151px #C30342;
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+  }
+  nav ul a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 15px 0;
+  }
+
+  header {
+    height: auto;
+    width: 100%;
+  }
+
+  .header-photo {
+    position: relative;
+    width: 100%;
+  }
+  .header-photo img {
+    position: absolute;
+    right: -50px;
+    top: -140px;
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .header-info {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .header-info a {
+    line-height: 1.3rem;
+  }
+
+  .about-me {
+    height: auto;
+  }
+  .about-me h2 {
+    line-height: 1.8rem;
+  }
+  .about-me h2 span {
+    display: block;
+  }
+  .about-me p {
+    line-height: 1.3rem;
+  }
+
+  .my-skills {
+    height: auto;
+  }
+  .my-skills .icons {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .Portfolio {
+    height: auto;
+    width: 100%;
+    padding: 5px;
+  }
+  .Portfolio .my-portfolio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Portfolio .my-portfolio .under-the-sea {
+    line-height: 1.5rem;
+    width: 100%;
+  }
+  .Portfolio .my-portfolio .movie-plus {
+    line-height: 1.5rem;
+    width: 100%;
+  }
+  .Portfolio .my-portfolio .slapshot {
+    line-height: 1.5rem;
+    width: 100%;
+  }
 }

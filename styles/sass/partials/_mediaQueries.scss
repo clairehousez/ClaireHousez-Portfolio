@@ -1,0 +1,102 @@
+@media (max-width: 500px) {
+    .wrapper{
+        width: 100%;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            a {
+                display: flex;
+                margin: 0;
+                padding: 15px 0;
+            }
+        }
+    }
+
+    header{
+        height: auto;
+        width: 100%;
+    }
+
+    .header-photo{
+        position: relative;
+        width: 100%;
+        img {
+            position: absolute;
+            right: -50px;
+            top: -140px;
+            max-width: 150px;
+            max-height: 150px;
+        }
+    }
+
+    .header-info{
+        width: 100%;
+        margin-bottom: 35px;
+        a {
+            line-height: 1.3rem;
+            
+        }
+    }
+
+    .about-me{
+        height: auto;
+        h2{
+            line-height: 1.8rem;
+            span {
+                display: block;
+            }
+
+        }
+        p {
+            line-height: 1.3rem;
+        }
+    }
+
+    .my-skills{
+        height: auto;
+        .icons{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+    }
+
+    .Portfolio{
+        height: auto;
+        width: 100%;
+        padding: 5px;
+
+        .my-portfolio{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+            .under-the-sea{
+                line-height: 1.5rem;
+                width: 100%;
+            }
+
+            .movie-plus{
+                line-height: 1.5rem;
+                width: 100%;
+            }
+
+            .slapshot{
+                line-height: 1.5rem;
+                width: 100%;
+            }
+        }
+
+    }
+}
